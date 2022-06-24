@@ -18,11 +18,11 @@ const Counter = () => {
 
     return (
         <div>
-            <h1>Welcome to redux</h1>
+            <h2>Welcome to redux counter</h2>
             <h3>Count: {count}</h3>
-            <button onClick={handleIncrement}>++</button>
-            <button onClick={handleReset}>Reset</button>
-            <button onClick={handleDecrement}>--</button>
+            <button className='btn' onClick={handleIncrement}>++</button>
+            <button className='btn' onClick={handleReset}>Reset</button>
+            <button className='btn' onClick={handleDecrement}>--</button>
         </div>
     );
 };
